@@ -1,0 +1,19 @@
+{
+  "name": "EnvironmentWeb",
+  "description": "This is a font code for an Environment Webiste.",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "danny",
+    "email": "xiudanzhao@outlook.com"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "sass": "^0.5.0"
+  }
+}
