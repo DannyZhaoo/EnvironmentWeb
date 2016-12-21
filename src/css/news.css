@@ -1,0 +1,15 @@
+@media (min-width: 769px)
+.container {
+	width: 750px;
+}
+.container-fluid{
+	margin: 0 auto;
+	padding: 0 20%;
+}
+.navbar-header{
+
+}
+.logo{
+	margin: -15px 20% 0 0;
+}
+
