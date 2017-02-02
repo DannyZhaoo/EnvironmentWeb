@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>demo</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<script src="./js/jquery-1.12.4.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="document">
+		<header class="header-section navbar navbar-fixed-top navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand navbar-logo" href="#">
+						<img src="img/logo.jpg" height="50px" width="50px">
+					</a>
+
+				</div>
+				<div id="navigation" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">首页</a>
+						</li>
+						<li>
+							<a href="#">了解我们</a>
+						</li>
+						<li>
+							<a href="#">新闻</a>
+						</li>
+						<li>
+							<a href="#">活动</a>
+						</li>
+						<li>
+							<a href="#">科普</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+		</header>
+		<script>
+			jQuery(document).ready(function($) {
+							$('#navigation ul li a').click( function() {
+								$("#navigation").removeClass("in");
+							} );
+						});
+		</script>	
+	</div>
+
+</body>
+</html>
