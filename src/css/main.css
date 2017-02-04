@@ -10,7 +10,7 @@ body {
 	overflow-x: hidden;
 }
 a{
-	font-weight: bold;
+	font-weight: 600;
     -webkit-transition: all ease 0.25s;
     transition: all ease 0.25s;
 }
@@ -20,13 +20,12 @@ a:focus, a:hover {
 }
 img {
 	max-width: 100%;
-	height: auto;
 }
 p, ul {
 	margin-bottom: 30px;
 }
 .header-section.navbar-default {
-	background-color: rgba(255,255,255,0.95);
+	background-color:white;
     border-bottom-color: #eeeeee;
 }
 .header-section{
@@ -40,8 +39,11 @@ p, ul {
 	position: relative;
 }
 .container>.navbar-header{
-	margin-left: 50px;
+	margin-left: 10%;
 }
+/*#navigation{
+	display: inline-block;
+}*/
 .navbar-logo{
 	max-height: 50px;
     margin-top: 5px;
@@ -58,5 +60,58 @@ p, ul {
 }
 
 .navbar-nav.navbar-right:last-child {
-    margin-right: 50px;
+    margin-right: 10%;
+}
+
+.navbar-nav.navbar-right li{
+	height: 60px;
+	margin-bottom: 0;
+}
+.navbar-nav.navbar-right li a{
+	height: 60px;
+}
+
+div.content{
+	min-height: 500px;
+/*	margin-bottom: 200px;
+*/}
+div.col-md-3 ul.nav{
+	padding: 0;
+	margin-left: 15%;
+	padding-top: 40px !important;
+}
+ul.nav li{
+	margin: 0 10px 10px 0 ;
+}
+ul.nav li.active a.pill, li:hover a.pill {
+    color: white!important;
+    background-color: #0083BB !important;
+}
+li a.pill{
+	background: transparent;
+	color: #798D8D;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: 16px 10%;
+    line-height: 100%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+div.panel-group{
+	margin-top: 40px;
+	margin-right: 10%;
+}
+
+
+
+footer.footer{
+	margin-bottom: 20px;
+}
+div.col-md-4 div{
+	text-align:center;
+}
+div.col-md-4 div a{
+	color:#777;
 }
