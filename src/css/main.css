@@ -1,3 +1,4 @@
+/*全局*/
 html {
 	height: 100% !important;
 }
@@ -24,9 +25,14 @@ img {
 p, ul {
 	margin-bottom: 30px;
 }
+
+
+
+/*header*/
 .header-section.navbar-default {
 	background-color:white;
     border-bottom-color: #eeeeee;
+    border-top: 5px solid #0099cc;
 }
 .header-section{
 	margin-bottom: 0;
@@ -39,7 +45,7 @@ p, ul {
 	position: relative;
 }
 .container>.navbar-header{
-	margin-left: 10%;
+	margin-left: 3%;
 }
 /*#navigation{
 	display: inline-block;
@@ -59,22 +65,30 @@ p, ul {
     font-size: 18px;
 }
 
-.navbar-nav.navbar-right:last-child {
-    margin-right: 10%;
+.navbar-nav.navbar-right:last-child, button.navbar-toggle{
+    margin-right: 5%;
 }
-
+button.navbar-toggle{
+	margin-top: 15px;
+}
+ul.navbar-nav.navbar-right{
+	font-size: 16px;
+}
 .navbar-nav.navbar-right li{
 	height: 60px;
-	margin-bottom: 0;
+	margin:0 0;
 }
-.navbar-nav.navbar-right li a{
+.navbar-nav.navbar-right li>a{
+	padding-top: 20px;
 	height: 60px;
 }
-
+/*内容*/
 div.content{
 	min-height: 500px;
 /*	margin-bottom: 200px;
 */}
+
+/*目录*/
 div.col-md-3 ul.nav{
 	padding: 0;
 	margin-left: 15%;
@@ -86,6 +100,7 @@ ul.nav li{
 ul.nav li.active a.pill, li:hover a.pill {
     color: white!important;
     background-color: #0083BB !important;
+    /*浅一点的色0099CC*/
 }
 li a.pill{
 	background: transparent;
@@ -104,10 +119,11 @@ div.panel-group{
 	margin-right: 10%;
 }
 
-
+/*footer*/
 
 footer.footer{
-	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 5px solid #0099cc;
 }
 div.col-md-4 div{
 	text-align:center;
